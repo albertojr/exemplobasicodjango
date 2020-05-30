@@ -1,20 +1,26 @@
-# exemplobasicodjango
-projeto básico em Django 3, ensinando a somar 2 valores e exibir em outro field.
+# Exemplo básico com Django Admin:
 
-Como instalar o projeto no linux?
- 1º - Criar o ambiente virtual com o seguinte comando:
+## projeto básico em Django 3, ensinando a somar 2 valores no Admin e exibir em outro field.
+
+#### Como instalar o projeto no linux ubuntu?
+* Criar o ambiente virtual com o seguinte comando:
+
     virtualenv nomemáquinavirtual
     
- 2º Utilizar o PIP, para instalar o requeriments:
+* Utilizar o PIP, para instalar o requeriments:
+
     pip install -r requirements
     
-3º Realizar o migrations para criar o admin e models da app:
+* Realizar o migrations para criar o admin e models da app:
+
     python manage.py migrate
 
-4º Criar o seu usuário admin, com o comando:
-    python manage.py creatsuperuser
+* Criar o seu usuário admin, com o comando:
 
-5º Em seguida, basta colocar o nome do usuário, e-mail e password.
+    python manage.py createsuperuser
 
-6º Por fim, basta rodar o projeto:
+* Em seguida, basta colocar o nome do usuário, e-mail e password.
+
+* Por fim, basta rodar o projeto:
+
   python manage.py runserver
